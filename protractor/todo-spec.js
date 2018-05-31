@@ -1,17 +1,19 @@
-describe('angularjs homepage todo list', function() {
-    it('should add a todo', function() {
-      browser.get('https://savoirs.rfi.fr/fr/apprendre-enseigner/langue-francaise/journal-en-fran%C3%A7ais-facile');
+describe('angularjs homepage todo list', () => {
+  beforeAll(async () => {
+    browser.ignoreSynchronization = true;
+  });
+
+  it('should add a todo', async () => {
+      await browser.get('https://savoirs.rfi.fr/fr/apprendre-enseigner/langue-francaise/journal-en-fran%C3%A7ais-facile');
   
-      element(by.model('todoList.todoText')).sendKeys('write first protractor test');
-      element(by.css('[value="add"]')).click();
+      // await browser.get('https://martyzhou.github.io/francaisfacile/');
+
+      let articleContainer = await element(by.css('.view-content'));
+      // let articleContainer = await element(by.css('.home'));
+      // let articleList = await articleContainer.all(by.tagName('a'));
+      let articleList = await articleContainer.all(by.css('.aside'));
+      await articleList[0].click();
   
-      var todoList = element.all(by.repeater('todo in todoList.todos'));
-      expect(todoList.count()).toEqual(3);
-      expect(todoList.get(2).getText()).toEqual('write first protractor test');
-  
-      // You wrote your first test, cross it off the list
-      todoList.get(2).element(by.css('input')).click();
-      var completedAmount = element.all(by.css('.done-true'));
-      expect(completedAmount.count()).toEqual(2);
+      await browser.sleep(2000);
     });
   });
