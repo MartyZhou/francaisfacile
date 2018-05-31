@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Journal en français facile 27/05/2018 20h00 GMT"
+title:  "Journal en francais facile 27/05/2018 20h00 GMT"
 date:   2018-05-27 09:55:49 +0800
-categories: Journal en français facile
+categories: Journal en francais facile
 ---
 
 <audio src="/mp3/journal_francais_facile_20h00_-_20h10_tu_20180527.mp3" controls preload></audio>
