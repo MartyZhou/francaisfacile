@@ -5,7 +5,7 @@ date:   2018-05-28 09:55:49 +0800
 categories: Journal en francais facile
 ---
 
-<audio src="/mp3/journal_francais_facile_20h00_-_20h10_tu_20180528.mp3" controls preload></audio>
+<audio src="/francaisfacile/mp3/journal_francais_facile_20h00_-_20h10_tu_20180528.mp3" controls preload></audio>
 
 Maxime Jaglin : 20h en temps universel, 22h à Paris, merci d’écouter RFI. Bienvenue dans cette nouvelle édition de votre Journal en français facile, pour le présenter à mes côtés ce soir Alexis Guilleux, bonsoir.
 
