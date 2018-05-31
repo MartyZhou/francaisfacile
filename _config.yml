@@ -17,7 +17,7 @@ title: Journal en francais facile
 # email: martyzhou@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   A copy of journal en français facile from https://savoirs.rfi.fr.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/francaisfacile" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
